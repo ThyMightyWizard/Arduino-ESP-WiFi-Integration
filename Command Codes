@@ -1,0 +1,31 @@
+(These are the first parameters of the wifi function)
+
+1 - Connect to wifi. Return: IP address as String
+
+
+String arg[]={"SSID","PASSWD"};
+wifi(1,arg); 
+
+
+2 - still empty
+
+
+3 - scan the available networks. Return: the available netowrks name, Signal Strength, and the security.
+
+wifi(3); 
+
+
+4 - Check your Wifi connection Returns: Connected/Disconnected
+
+wifi(4); 
+
+
+9 - Disconnect from any networks Return: ok
+
+wifi(9); 
+
+
+21-Http client. Return the source code.
+
+String arg[]={"http://SiteExample.Blah/"};
+wifi(21,arg);
