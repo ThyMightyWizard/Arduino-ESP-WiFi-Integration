@@ -1,0 +1,18 @@
+void wifi(byte id,String data[]){}
+void wifi(byte id){}
+
+
+The wifi function requires a byte data, which is id, or if necessary, additional arguments. 
+To do this, create a String array
+
+
+String arg[]={"Wifi_SSID","WiFi_PASSWD"};
+wifi(1,arg);
+
+
+To extract response data, create a String variable and read op_read() or just print out.
+
+
+String result=op_read();
+OR
+Serial.println(op_read());
